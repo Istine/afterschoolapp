@@ -27,8 +27,8 @@ const ReviewCard = () => {
   return (
     <div className="w-[350px] h-[250px] rounded-tl-[30px] rounded-br-[30px] bg-white border border-1 border-gray-300 p-7 flex flex-col justify-between">
       <p>
-        "Afterschool helped me gain on-the-job confidence, build a portfolio,
-        and earn a microcredential to share with prospective employers. "
+        Afterschool helped me gain on-the-job confidence, build a portfolio, and
+        earn a microcredential to share with prospective employers.
       </p>
       <div className="w-full flex items-center">
         <UserCircle

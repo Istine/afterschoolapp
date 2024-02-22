@@ -11,7 +11,7 @@ import { useForm } from "react-hook-form";
 import * as z from "zod";
 import { useRouter } from "next/navigation";
 
-export default () => {
+const Page = () => {
   const router = useRouter();
 
   const { toast } = useToast();
@@ -88,3 +88,5 @@ export default () => {
     />
   );
 };
+
+export default Page;

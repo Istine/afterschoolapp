@@ -1,6 +1,6 @@
 import { Skeleton } from "@/components/ui/skeleton";
 
-export default () => {
+const PageLoader = () => {
   return (
     <div className="px-4">
       <Skeleton className="bg-[#ccc] w-full h-[100px] mt-5" />
@@ -42,3 +42,5 @@ export default () => {
     </div>
   );
 };
+
+export default PageLoader;

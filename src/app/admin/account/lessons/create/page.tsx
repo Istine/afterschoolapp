@@ -7,7 +7,7 @@ import { createLessons, uploadVideo } from "@/services/lesson";
 import { LessonFormType } from "@/types";
 import React from "react";
 
-export default () => {
+const Page = () => {
   const [router] = useRouter();
 
   const { toast } = useToast();
@@ -84,3 +84,5 @@ export default () => {
     />
   );
 };
+
+export default Page;

@@ -7,7 +7,7 @@ import { filterVideoFilesByIndex, parseVideoMetaData } from "@/lib/utils";
 import { Clock9, Loader2, Video, X, XCircle } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 
-export default ({
+const Page = ({
   pageTitle,
   onSubmit,
   form,
@@ -128,3 +128,5 @@ export default ({
     </div>
   );
 };
+
+export default Page;

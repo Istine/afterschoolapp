@@ -139,7 +139,7 @@ const Page = () => {
               <p>
                 Every project receives personalized feedback from industry
                 experts, and our mentors are available to answer questions
-                whenever you're feeling stuck.
+                whenever you are feeling stuck.
               </p>
             </div>
           </div>
@@ -350,10 +350,11 @@ const GetStartedForm = () => {
         Start Learning Today
       </Button>
       <p className="text-[10px] mt-5">
-        By signing up you agree to Afterschool's Terms of Service and Privacy
-        Policy, and agree to receive marketing communications from Skillshare at
-        the email address provided. This page is protected by reCAPTCHA and is
-        subject to Google's Terms of Service and Privacy Policy.
+        By signing up you agree to Afterschool&lsquo;s Terms of Service and
+        Privacy Policy, and agree to receive marketing communications from
+        Skillshare at the email address provided. This page is protected by
+        reCAPTCHA and is subject to Google&lsquo;s Terms of Service and Privacy
+        Policy.
       </p>
     </form>
   );

@@ -85,9 +85,9 @@ export const checkForDups = (
   const checks = [];
   const lessonTitles = dbModules.map((l: ModuleType) => l.title);
 
-  for (const module of dbModules) {
+  for (const mod of dbModules) {
     for (const m of modules) {
-      if (m.module === module.title) {
+      if (m.module === mod.title) {
         checks.push(m.module);
       }
     }

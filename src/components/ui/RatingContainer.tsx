@@ -20,7 +20,7 @@ const RatingContainer = ({
   React.useEffect(() => {
     const defaultArr = new Array(starCount).fill(true);
     setStarState(defaultArr);
-  }, []);
+  }, [starCount]);
 
   return <div className="flex items-center">{stars}</div>;
 };

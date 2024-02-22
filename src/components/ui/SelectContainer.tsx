@@ -73,7 +73,7 @@ const SelectContainer = ({
 
   React.useEffect(() => {
     if (defaultValues) setState(defaultValues);
-  }, []);
+  }, [defaultValues]);
 
   return (
     <Select>
